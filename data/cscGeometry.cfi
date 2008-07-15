@@ -13,7 +13,7 @@ es_module CSCGeometryESModule = CSCGeometryESModule {
     bool useCentreTIOffsets    = false
 
     string appendToDataLabel = ""
-    bool applyAlignment = false # GF: to be abandoned
+    bool applyAlignment = true # GF: to be abandoned
     string alignmentsLabel = ""
 
     untracked bool debugV = false
